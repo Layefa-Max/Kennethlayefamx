@@ -58,7 +58,7 @@ main section {
 
 /* INTRO SECTION */
 .intro-section {
-    background: url('../images/sectionimg.jpg') no-repeat center center/cover;
+    background: url('./images/sectionimg.jpg') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
