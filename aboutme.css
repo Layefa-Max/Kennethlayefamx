@@ -55,11 +55,11 @@ nav ul li a:hover {
 
 /* MAIN SECTION */
 main section {
-    height: 90vh;
+    height: 95vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: gray;
+    background: palegreen;
 }
 
 .center-section {
@@ -112,6 +112,11 @@ main section {
 
 .child2 p {
     height: 85%;
+}
+
+.paragraph div {
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 .contact-btn {
