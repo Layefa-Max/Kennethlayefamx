@@ -111,7 +111,8 @@ main section {
     background-color: #04AA6D;
     display: block;
     height: 100%;
-    width: 40%;
+    width: 30%;
+    border-radius: 5px;
     white-space: nowrap;
     font-weight: bold;
     text-align: center;
