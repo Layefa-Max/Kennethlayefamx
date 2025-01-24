@@ -130,8 +130,8 @@ main section {
 
 .content {
     display: flex;
-    width: 80%;
-    height: 80%;
+    width: 85%;
+    height: 95%;
     overflow: hidden;
 }
 
@@ -144,27 +144,30 @@ main section {
 }
 
 .text-content div {
-    margin-bottom: 10px;
-    font-size: 50px;
+    margin-bottom: 5px;
+    font-size: 36px;
     color: #333;
     font-weight: bolder;
 }
 
 .text-content p {
-    margin: 20px 0;
+    margin: 10px 0 20px 0;
     font-size: 18px;
-    color: #555;
 }
 
 .text-content .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #333333;
+    display: block;
+    padding: 10px 0;
+    background-color: #555;
     color: white;
     transition: all 0.3s ease;
     width: 30%;
     font-weight: bold;
     text-align: center;
+}
+
+.text-content .btn:hover {
+    background: #333333;
 }
 
 .text-content .btn:hover {
@@ -180,7 +183,7 @@ main section {
 
 .image-content img {
     width: 80%;
-    height: 98%;
+    height: 95%;
     object-fit: cover;
     border-radius: 5px;
 }
