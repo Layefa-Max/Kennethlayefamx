@@ -55,17 +55,17 @@ nav ul li a:hover {
 
 /* MAIN SECTION */
 main section {
-    height: 99vh;
+    height: 105vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: palegreen;
+    background: #04AA6D;
 }
 
 .center-section {
     display: flex;
-    width: 80%;
-    height: 100%;
+    width: 98%;
+    height: 98%;
     gap: 20px;
 }
 
@@ -74,76 +74,55 @@ main section {
     display: flex;
     flex-direction: column;
     height: 100%;
-    background-color: red;
 }
 
 .child1 {
-    /* height: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.child1 img, .child2-container {
+.child1 img {
     width: 100%;
-    height: 99%;
+    height: 100%; 
 }
 
 .child2 {
-    /* display: flex;
-    flex-direction: column; */
+    background-color: white;
 }
 
 .paragraph {
-    height: 95%;
-    overflow-y: hidden;
+    height: 98%;
+    padding: 0.5px 4px;
 }
 
-.about-max {
-    font-size: 20px;
-    font-weight: bolder;
-    margin-bottom: 2px;
-    margin-top: 1%;
+.paragraph h3 {
+    text-align: center;
 }
 
-/*  */
 .contact-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #333333;
-    color: white;
-    transition: all 0.3s ease;
-    width: 30%;
+    display: flex;
+    justify-content: center;  
+    height: 5%;
+    margin-bottom: 2%;
+}
+
+.contact-btn a {
+    background-color: #04AA6D;
+    display: block;
+    height: 100%;
+    width: 40%;
     white-space: nowrap;
     font-weight: bold;
     text-align: center;
-    margin: 2px 0 0 0;
-    height: 2%;
+    color: white;
+    transition: all 0.3s ease;
+    padding: 1% 0;
 }
 
-.contact-btn:hover {
+.contact-btn a:hover {
     background: #2a2a2a;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* FOOTER */
 footer {
